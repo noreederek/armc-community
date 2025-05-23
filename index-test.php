@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2015 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
+
 
 // NOTE: Make sure this file is not accessible when deployed to production
 use humhub\components\Response;

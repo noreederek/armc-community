@@ -28,7 +28,7 @@ use yii\helpers\Url;
                         orphan: true,
                         backdrop: true,
                         title: <?php echo json_encode(Yii::t('TourModule.administration', "<strong>Hurray!</strong> That's all for now.")); ?>,
-                        content: <?php echo json_encode(Yii::t('TourModule.administration', 'You have now learned about all the most important features and settings and are all set to start using the platform.<br><br>We hope you and all future users will enjoy using this site. We are looking forward to any suggestions or support you wish to offer for our project. Feel free to contact us via www.humhub.org.<br><br>Stay tuned. :-)')); ?>
+                        content: <?php echo json_encode(Yii::t('TourModule.administration', 'You have now learned about all the most important features and settings and are all set to start using the platform.<br><br>We hope you and all future users will enjoy using this site. We are looking forward to any suggestions or support you wish to offer for our project. Feel free to contact us via www.aramco.com.<br><br>Stay tuned. :-)')); ?>
                     }
 
                 ]

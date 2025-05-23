@@ -1,9 +1,4 @@
-/*
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2018 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- *
- */
+
 
 /**
  * This module holds basic logic of stream entries.

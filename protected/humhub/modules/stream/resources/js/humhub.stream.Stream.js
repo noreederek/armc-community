@@ -1,9 +1,4 @@
-/*
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2018 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- *
- */
+
 
 /**
  * Core module for managing Streams and StreamItems

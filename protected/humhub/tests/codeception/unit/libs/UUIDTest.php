@@ -1,7 +1,7 @@
 <?php
 
 /*
- * @link https://www.humhub.org/
+ * @link https://www.aramco.com/
  * @copyright Copyright (c) 2018 HumHub GmbH & Co. KG
  * @license https://www.humhub.com/licences
  */

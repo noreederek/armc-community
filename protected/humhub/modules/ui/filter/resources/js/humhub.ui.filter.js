@@ -1,9 +1,4 @@
-/*
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2018 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- *
- */
+
 humhub.module('ui.filter', function (module, require, $) {
 
     var Widget = require('ui.widget').Widget;

@@ -53,7 +53,7 @@ Version 1.17
 
 ### New
 - CSS variables: `--hh-fixed-header-height` and `--hh-fixed-footer-height` (see [#7131](https://github.com/humhub/humhub/issues/7131)): these variables should be added to custom themes in the `variables.less` file to overwrite the fixed header (e.g. the top menu + margins) and footer heights with the ones of the custom theme.
-- `\humhub\modules\user\Module::enableRegistrationFormCaptcha` which is true by default (can be disabled via [file configuration](https://docs.humhub.org/docs/admin/advanced-configuration#module-configurations))
+- `\humhub\modules\user\Module::enableRegistrationFormCaptcha` which is true by default
 - `\humhub\modules\user\Module::$passwordHint` (see [#5423](https://github.com/humhub/humhub/issues/5423))
 - New methods in the `DeviceDetectorHelper` class: `isMobile()`, `isTablet()`, `getBodyClasses()`, `isMultiInstanceApp()` and `appOpenerState()`
 - HTML classes about the current device (see list in `DeviceDetectorHelper::getBodyClasses()`)
@@ -128,7 +128,7 @@ Version 1.15
 - `\humhub\libs\BaseSettingsManager::get()` now returns a pure int in case the (trimmed) value can be converted
 - New `PolymorphicRelation::getObjectModel()`: should replace `get_class()`
 - Removed deprecated javascript method `setModalLoader()`
-- Javascript CSP Nonces are now required and enabled by default! See: https://docs.humhub.org/docs/develop/javascript/
+- Javascript CSP Nonces are now required and enabled by default!
 - Use the verifying `Content->canArchive()` before run the methods `Content->archive()`
   and `Content->archive()`, because it was removed from within there.
 - Permission to configure modules is now restricted to users allowed to manage settings (was previously restricted to users allowed to manage modules). [More info here](https://github.com/humhub/humhub/issues/6174).

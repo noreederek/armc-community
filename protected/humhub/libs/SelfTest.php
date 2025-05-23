@@ -422,7 +422,7 @@ class SelfTest
                     $checks[] = [
                         'title' => $title,
                         'state' => 'WARNING',
-                        'hint' => Html::a(Yii::t('AdminModule.information', 'HumHub Documentation'), 'https://docs.humhub.org/docs/admin/installation#pretty-urls'),
+                        'hint' => Html::a(Yii::t('AdminModule.information', 'Documentation'), 'https://docs.aramco.com'),
                     ];
                 }
             }

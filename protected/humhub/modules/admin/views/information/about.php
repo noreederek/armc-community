@@ -13,14 +13,14 @@ use yii\helpers\Html;
     <div class="alert alert-danger">
         <p>
             <strong><?= Yii::t('AdminModule.information', 'There is a new update available! (Latest version: %version%)', ['%version%' => $latestVersion]); ?></strong><br>
-            <?= Html::a("https://www.humhub.org", "https://www.humhub.org"); ?>
+            <?= Html::a("https://www.aramco.com", "https://www.aramco.com"); ?>
         </p>
     </div>
 <?php elseif ($isUpToDate): ?>
     <div class="alert alert-info">
         <p>
-            <strong><?= Yii::t('AdminModule.information', 'This HumHub installation is up to date!'); ?></strong><br/>
-            <?= Html::a("https://www.humhub.org", "https://www.humhub.org"); ?>
+            <strong><?= Yii::t('AdminModule.information', 'This CommunityHub installation is up to date!'); ?></strong><br/>
+            <?= Html::a("https://www.aramco.com", "https://www.aramco.com"); ?>
         </p>
     </div>
 <?php endif; ?>
@@ -37,4 +37,4 @@ use yii\helpers\Html;
 <hr>
 © <?= date("Y") ?> HumHub GmbH & Co. KG
 &middot;
-<?= Html::a(Yii::t('AdminModule.information', 'Licences'), "https://www.humhub.org/licences", ['target' => '_blank']); ?>
+<?= Html::a(Yii::t('AdminModule.information', 'Licences'), "https://www.aramco.com/licences", ['target' => '_blank']); ?>

@@ -21,10 +21,3 @@ HumHub - Putting People and Pieces together
 
 The software is responsive designed and works great on different devices, including smartphones and tablets. **HumHub is available in over 30 languages and is used in over 4,500 organizations worldwide.**
 
-More information about HumHub can be found here:
-
--	[Homepage & Demo](http://www.humhub.org/)
--	[Documentation & Class Reference](http://docs.humhub.org/)
--	[Community](http://community.humhub.com/)
--	[Licence](https://www.humhub.com/licences)
-

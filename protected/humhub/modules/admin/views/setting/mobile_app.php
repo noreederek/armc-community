@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
 
 use humhub\modules\admin\models\forms\MobileSettingsForm;
 use humhub\modules\ui\form\widgets\ActiveForm;

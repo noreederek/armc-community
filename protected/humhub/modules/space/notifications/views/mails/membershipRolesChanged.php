@@ -1,9 +1,4 @@
 <?php
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2018 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
 
 /* @var $this View */
 /* @var $viewable humhub\modules\user\notifications\Followed */

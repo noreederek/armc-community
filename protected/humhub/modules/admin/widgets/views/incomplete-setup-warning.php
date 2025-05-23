@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2018 HumHub GmbH & Co. KG
- * @license https://www.humhub.org/en/licences
- */
+
 
 use humhub\modules\admin\widgets\IncompleteSetupWarning;
 use humhub\modules\ui\view\components\View;

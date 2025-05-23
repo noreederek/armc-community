@@ -1,9 +1,4 @@
 <?php
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2017 HumHub GmbH & Co. KG
- * @license https://www.humhub.org/licences
- */
 
 use humhub\modules\activity\assets\ActivityAsset;
 use humhub\widgets\PanelMenu;

@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2021 HumHub GmbH & Co. KG
- * @license https://www.humhub.org/en/licences
- */
+
 
 use humhub\components\access\ControllerAccess;
 use humhub\libs\Html;

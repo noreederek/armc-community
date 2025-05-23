@@ -49,14 +49,14 @@ class PoweredBy extends Widget
     protected function getHumHubName(): string
     {
         if ($this->textOnly) {
-            return 'HumHub (https://www.humhub.com)';
+            return 'Aramco Innovations (https://www.aramco.com)';
         }
 
         if (!isset($this->linkOptions['target'])) {
             $this->linkOptions['target'] = '_blank';
         }
 
-        return Html::a('HumHub', 'https://www.humhub.com', $this->linkOptions);
+        return Html::a('Aramco Innovations', 'https://www.aramco.com', $this->linkOptions);
     }
 
 }

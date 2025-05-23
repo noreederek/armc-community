@@ -8,7 +8,7 @@ use yii\helpers\Url;
     <div class="pull-left" style="padding-right:12px">
         <img src="<?= Yii::getAlias('@web-static/img/humhub.png'); ?>" style="height:96px;">
     </div>
-    <span style="font-size:36px">HumHub&nbsp;&nbsp;</span><span style="font-size:24px">Community Edition</span><br/>
+    <span style="font-size:36px">Aramco Community&nbsp;&nbsp;</span><span style="font-size:24px">Demo</span><br/>
     <a href="<?= Url::to(['/marketplace/licence']); ?>" class="btn btn-success pull-right"><i
             class="fa fa-rocket">&nbsp;</i> <?= Yii::t('MarketplaceModule.base', 'Upgrade to Professional Edition'); ?>
     </a>

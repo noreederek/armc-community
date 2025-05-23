@@ -17,7 +17,7 @@ use humhub\widgets\Button;
         <?= Button::primary(Yii::t('MarketplaceModule.base', 'Edit license'))
             ->link(['/marketplace/licence'])->icon('cogs')->sm() ?>
     </div>
-    <span style="font-size:36px">HumHub&nbsp;&nbsp;</span><span style="font-size:24px">Professional Edition</span><br/>
+    <span style="font-size:36px">Aramco Community&nbsp;&nbsp;</span><span style="font-size:24px">Professional Edition</span><br/>
     <span
         style="font-size:18px"><?= Yii::t('MarketplaceModule.base', 'Version:') ?> <?= Html::encode(Yii::$app->version) ?></span><br/>
     <span

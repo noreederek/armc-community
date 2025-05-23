@@ -1,8 +1,4 @@
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2017 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
+
 humhub.module('notification', function (module, require, $) {
     var util = require('util');
     var object = util.object;
